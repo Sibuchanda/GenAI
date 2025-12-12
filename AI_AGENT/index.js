@@ -93,6 +93,7 @@ const runAgent = async (question) => {
       model: "gemini-2.5-flash",
       contents: history,
       config: {
+      systemInstruction: "If you get any questions that are not related to the given function declaration then you can answer them as well if you can do. But generate the answer like if Minimal question → Minimal answer.Detailed question → Detailed answer.",
         tools: [
           {
             functionDeclarations: [
