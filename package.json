@@ -12,7 +12,9 @@
   "description": "",
   "dependencies": {
     "@google/genai": "^1.30.0",
+    "child_process": "^1.0.2",
     "dotenv": "^17.2.3",
-    "readline-sync": "^1.4.10"
+    "readline-sync": "^1.4.10",
+    "util": "^0.12.5"
   }
 }
